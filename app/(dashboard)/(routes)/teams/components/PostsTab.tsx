@@ -66,7 +66,7 @@ useEffect(() => {
   });
 
   return (
-    <div className='w-full min-h-[50vh] grid sm:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4 flex-wrap '>
+    <div className='w-full min-h-[50vh]'>
 
       {loading ? (
         <Loading />
